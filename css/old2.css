@@ -1,0 +1,473 @@
+/* ==========================================================================
+HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+
+html { font-size: 62.5%; }
+
+body { 
+    font-size: 14px;
+    text-align: center; 
+    font: 1.4rem "Cabin Condensed", Cambria, Tahoma, Arial, Sans-Serif;
+    color: #000;
+    padding: 5px;
+    padding: 0.5rem;
+}
+
+a {
+    color: #172CAF;
+    padding: 0.2em 0.4em 0.25em;
+    margin: -0.2em -0.4em -0.25em;
+}
+
+a:hover, a:active {
+    color: #071672;
+    background-color: rgba(255, 183, 0, 0.5);
+    -moz-border-radius: 0.35em;
+    border-radius: 0.35em;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+}
+
+p {
+    margin: 5px auto 1.4px auto;
+    margin: .5rem auto 1.4rem auto;
+    line-height: 1.4;
+    text-align: left;
+}
+
+h1, h2 {     
+    font-size: 28px;
+    font: 2.8rem "Signika Negative", Constantia, Garamond, serif;
+    font-weight: bold;
+    color:  #071672;
+    text-shadow: 2px 2px 2px rgba(46, 57, 131, 0.5); 
+}
+
+h2 {
+    font-size: 18px;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 1px rgba(46, 57, 131, 0.7); 
+}
+
+#container > nav {
+    display: block;
+    width: 100%;
+    margin: 12px auto;
+    margin: 1.2rem auto;
+    border-color: #2E3983;
+    border-width: 3px 0px; border-style: solid; 
+}
+
+#container > nav ul li { 
+    display: inline-block;
+    margin: 0 5px;
+    margin: 0 .5rem;
+}
+
+#container > nav ul li a {
+    font-size: 24px;
+    font: 2.4rem "Iceland", Cambria, Tahoma, Arial, Sans-Serif;
+    font-weight: bold;
+    color: #172CAF;
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px 4px 15px;
+    padding: .5rem 1.5rem 0.4rem 1.5rem;
+    margin: 0;
+    line-height: 1.2;
+    text-shadow: 0 -.1rem .1rem rgba(0,0,0,0.25);
+    border-bottom: 1px solid #FFF;
+}
+
+#container > nav ul li a:hover {
+    -moz-border-radius: 0.35rem;
+    border-radius: 0.35rem;
+    -moz-box-shadow: 0 .1rem .3rem rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 .1rem .3rem  rgba(0,0,0,0.5);
+    background: #2A4480;
+    color: #FFC940;
+    background: #2e3983;
+    background: -moz-linear-gradient(top, #2e3983 5%, #071672 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#2e3983), color-stop(90%,#071672));
+    background: -webkit-linear-gradient(top, #2e3983 5%,#071672 90%);
+    background: -o-linear-gradient(top, #2e3983 5%,#071672 90%);
+    background: -ms-linear-gradient(top, #2e3983 5%,#071672 90%);
+    background: linear-gradient(top, #2e3983 5%,#071672 90%);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+#container > nav ul li a:visited {
+    color: #4B5ED7;
+}
+
+#container > nav ul li a:visited:hover {
+    color: #FFC940;
+}
+
+#projects  {
+    margin: 0 auto;
+    width: 300px;
+}
+
+#projects nav {
+
+}
+
+#projects ul {
+    text-align: left;
+}
+
+#projects li {
+    padding: 2px;
+}
+
+#projects nav li {
+    display: inline-block;
+}
+
+#projects nav li a {
+    margin: 5px 5px 5px -10px;
+    margin: .5rem .5rem .5rem -1.0rem;
+    padding: 3px 15px 4px 15px;
+    padding: 0.3rem 1.5rem 0.4rem 1.5rem;
+}
+
+#projects article {
+    margin: 0 auto;
+}
+
+#project article li {
+
+}
+
+fieldset ol {
+    list-style-type: none;
+}
+
+code {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+#contact {
+    margin: 0 auto;    
+    width: 300px;
+    text-align: left;    
+}
+
+fieldset ol li {
+    padding: 0;
+    margin: 5px;
+}
+
+#contact label {
+    display: block;
+    padding: 3px;
+}
+
+#contact input, #contact textarea {
+    margin: 0 0 2px 5px;
+    width: 95%;
+}
+
+#contact textarea {
+    resize: both;
+    height: 120px; 
+    line-height: 1.4;
+}
+
+#contact ol li:last-child { 
+    text-align: right;
+}
+
+div#main { clear: both; padding: 10px; }
+
+footer {
+    margin: 75px auto 0px auto;
+    clear: both;
+    color: #BF9730;
+    opacity: 0.55;    
+    width: 300px;
+    text-align: left;
+    height: 30px;
+    height: 3rem;
+}
+
+footer h6 {
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 5px; 
+    width: 45%;
+    margin: 0;
+    float: left;
+    font-weight: normal;
+
+}
+
+footer p {
+    padding: 5px; 
+    margin: 0;
+    width: 45%;
+    float: right;
+    text-align: right;
+}
+
+footer:hover, footer:active { opacity: 1.0; font-weight: bold; }
+
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media only screen and (min-width: 480px) {
+    /* Style adjustments for viewports 480px and over go here */
+    p {  width: 450px; }
+
+    nav { width: 95%; }
+
+    #projects { width: 450px }
+
+    #contact { 
+        width: 425px;
+        margin-top: 20px;
+    }
+    #contact label {
+        display: inline-block;
+        width: 20%;
+        text-align: right;
+    }
+    #contact input, #contact textarea {
+        display: inline-block;
+        width: 75%;
+    }
+
+    #footer { width: 425px; }
+
+}
+
+@media only screen and (min-width: 768px) {
+    /* Style adjustments for viewports 768px and over go here */
+    p { width: 480px; }
+    #container > nav { width: 600px; }
+
+    #projects {   width: 600px;}
+    #projects nav {
+        width: 150px;
+        display: inline-block;
+    }
+
+    #projects article {
+        width: 400px;
+        display: inline-block;    
+    }
+
+    footer { 
+        margin-top: 125px; 
+        width: 500px;
+    }
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+Helper classes
+========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+              *text-indent: -9999px;
+          }
+
+          .ir:before {
+              content: "";
+              display: block;
+              width: 0;
+              height: 150%;
+          }
+
+          .hidden {
+              display: none !important;
+              visibility: hidden;
+          }
+
+          .visuallyhidden {
+              border: 0;
+              clip: rect(0 0 0 0);
+              height: 1px;
+              margin: -1px;
+              overflow: hidden;
+              padding: 0;
+              position: absolute;
+              width: 1px;
+          }
+
+          .visuallyhidden.focusable:active,
+          .visuallyhidden.focusable:focus {
+              clip: auto;
+              height: auto;
+              margin: 0;
+              overflow: visible;
+              position: static;
+              width: auto;
+          }
+
+          .invisible {
+              visibility: hidden;
+          }
+
+          .clearfix:before,
+          .clearfix:after {
+              content: " ";
+              display: table;
+          }
+
+          .clearfix:after {
+              clear: both;
+          }
+
+          .clearfix {
+              *zoom: 1;
+          }
+
+          /* ==========================================================================
+          Print styles
+          ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+.ir a:after,
+a[href^="javascript:"]:after,
+a[href^="#"]:after {
+    content: "";
+}
+
+pre,
+blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+}
+
+thead {
+    display: table-header-group; /* h5bp.com/t */
+}
+
+tr,
+img {
+    page-break-inside: avoid;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+@page {
+    margin: 0.5cm;
+}
+
+p,
+h2,
+h3 {
+    orphans: 3;
+    widows: 3;
+}
+
+h2,
+h3 {
+    page-break-after: avoid;
+}
+}
