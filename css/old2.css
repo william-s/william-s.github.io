@@ -211,9 +211,9 @@ code {
 }
 
 #contact {
-    margin: 0 auto;    
     width: 300px;
-    text-align: left;    
+    margin: 0 auto;
+    text-align: left;
 }
 
 fieldset ol li {
