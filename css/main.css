@@ -55,6 +55,15 @@ body {
   font-family: 'Vollkorn', serif;
   font-size: 16px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav a {
+  font-family: 'Rokkitt', serif;
+}
 p {
   text-align: left;
 }
@@ -81,8 +90,11 @@ p + p {
 .wrapper a {
   text-decoration: none;
 }
-.wrapper > footer p {
+.wrapper > footer {
   text-align: right;
+}
+.wrapper > footer h6 {
+  font-weight: normal;
 }
 .projects li {
   display: inline-block;
