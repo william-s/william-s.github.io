@@ -52,10 +52,14 @@ textarea {
   border-box: border-box;
 }
 body {
+  font-family: 'Vollkorn', serif;
   font-size: 16px;
 }
 p {
   text-align: left;
+}
+p + p {
+  text-indent: 2em;
 }
 .wrapper {
   margin: 0 5%;
