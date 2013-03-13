@@ -83,7 +83,7 @@ h3 {
 p {
   text-align: left;
   margin: 0 auto 1em auto;
-  max-width: 38.44em;
+  max-width: 28.83em;
 }
 p + p {
   text-indent: 1.5em;
@@ -133,6 +133,9 @@ nav a {
 }
 .projects article ul {
   text-align: left;
+}
+.projects article ul li {
+  display: block;
 }
 /* ==========================================================================
    Media Queries
