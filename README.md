@@ -1,3 +1,3 @@
-william-s.github.com
+william-s.github.io
 ====================
 [My Homepage](http://william-sherer.com)
